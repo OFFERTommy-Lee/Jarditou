@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarditou</title>
+</head>
+    <body>
+        <Header><img src="jarditou_css/src/img/jarditou_logo.jpg" width="300" alt=""></Header>
+        <blockquote>La qualit&eacute depuis 70 ans</blockquote>
+        <ul>
+            <li><a href="Page d'acceuil jarditou.html">Accueil</a></li>
+            <li><a href="Tableau jarditou.html">Tableau</a></li>
+            <li><a href="formulaire.html">Contact</a></li>
+        </ul>
+        <img src="jarditou_css/src/img/promotion.jpg" width="1270" alt="">
+        <caption><h2>Contact</h2></caption>
+        <hr>
+<form action="http://bienvu.net/script.php" method="post" id="formulaire_contact">
+    <blockquote>* Ces zones sont obligatoires</blockquote>
+<fieldset>
+    <legend>Vos coordonn&eacutees</legend>
+    <label for="nom">Nom* :</label><input type="text" name="nom"><br>
+    <label for="prenom">Prenom* :</label><input type="text" name="prenom"><br>
+    <label for="Sexe">Sexe* :</label><input type="radio" name="F&eacuteminin" value="F&eacuteminin"> F&eacuteminin
+    <input type="radio" name="Masculin" value="Masculin"> Masculin<br>
+    <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date"><br>
+    <label for="Code postal">Code postal* :</label><input type="text" name="code postal"><br>
+    <label for="adresse">Adresse:</label><input type="text" name="adresse"><br>
+    <label for="Ville">Ville:</label><input type="text" name="ville"><br>
+    <label for="?">Email* :</label><input type="email" name="email"><br>
+</fieldset>
+<fieldset>
+    <legend>Votre demande</legend>
+    <label for="Sujet">Sujet* :</label>
+    <select id="Sujet">
+    <option value="" selected>Veuillez selectionner un sujet</option>
+    <option value="Mes commandes">Mes commandes</option>
+    <option value="Question sur un produit">Question sur un produit</option>
+    <option value="R&eacuteclamation">R&eacuteclamation</option>
+    <option vlaue="Autres">Autres</option>
+</select><br>
+    <label for="Question">Votre question* :</label><br>
+    <textarea name="question" rows="2" cols="20">Posez votre question</textarea><br>
+</fieldset>
+<input type="checkbox" name="Verification" value="J'accepte le traitement informatique de ce formulaire"> *J'accepte le traitement informatique de ce formulaire<br>
+<button type="submit">Envoyer</button>
+</form>
+</html>
